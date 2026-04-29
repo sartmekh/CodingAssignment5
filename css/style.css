@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+[class*="col"] {
+    float: left;
+    /* padding: 15px; */
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+body {
+    background-image: url('../images/background.jpg');
+    font-family: "Jost", sans-serif;
+    color: #130805;
+    font-size: large;
+    text-shadow: #0a05034d 1px 1px 0px;
+}
+h1, h2 {
+    font-family: "Playwrite NO", serif;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    /* border: double cornflowerblue; */
+    background-color: #fae08a42;
+    gap: 10px;
+    padding: 10px;
+    margin: 2em;
+}
+
+
+h1:hover, h2:hover, h3:hover{
+    color: #7c3c2a;
+    text-shadow: #25110b 1px 1px 0px;
+}
+
+a {
+    
+    color: #7c3c2a;
+}
+a:hover {
+    color: #fc8d6e;
+    text-shadow: #6d311f 1px 1px 0px;
+}
+
+.difficulty {
+    width: 300px;
+    background-color: #ffbc647c;
+}
+div {
+    margin: 10px;
+    /* border: #0a0503 2px solid; */
+}
+
+.RecipiesLinks li{
+    margin: 5px;
+    background-color: #cec5ca;
+    border: #3f3937 2px solid;
+    padding: 5px;
+    font-size: medium;
+}
+
+span {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #25110b;
+}
+
+#process {
+    background-color: #ffbc647c;
+    padding: 10px;
+    border: #0a0503 2px solid;
+
+}
