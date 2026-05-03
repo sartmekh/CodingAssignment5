@@ -10,28 +10,29 @@
 </head>
 <body>
     <div class="recipe-box">
+        <header>
         <h1>Matvii's Delicious Kiev Cutlet</h1>
         <h2><a href="https://www.russianfood.com/recipes/recipe.php?rid=117814">Kiev Cutlet</a></h2>
         <p>Recipe by: sveticc (Source: RussianFood.com)</p>
-
+        </header>
         <div class="row">
-            <div class="col-3 menu" style="width:10%; margin-right: 5%;">
-                <ul class="RecipiesLinks">
+            <div class="col menu" style="padding:.5%;">
+                <ul class="menu">
                 <li>Recipe 1</li>
                 <li>Recipe 2</li>
                 <li>Recipe 3</li>
                 <li>Recipe 4</li>
                 </ul>
             </div>
-            <div class="col" style="width:30%">
+            <div class="col" style="width: min(30%,500px);">
                 <figure style="margin:0px;">
-                    <img src="images/kiev_cutlet.jpg" style="width:50%; height: auto;" alt="Golden crispy Chicken Kiev cutlet">
-                    <figcaption style="width: 350px">Classic homemade Kiev Cutlet before frying.</figcaption>
+                    <img src="images/kiev_cutlet.jpg" style="width:100%; height: auto;" alt="Golden crispy Chicken Kiev cutlet">
+                    <figcaption style="border: 1px solid #0a0503;">Classic homemade Kiev Cutlet before frying.</figcaption>
                 </figure>
             </div>
-            <div class="col" style="width:40%">
-                <h3 class="rate">Rate This Recipe</h3>
-                <fieldset style="width: 300px;">
+            <div class="col rate">
+                <h3>Rate This Recipe</h3>
+                <fieldset>
                     <legend>Rate how difficult is this recipe?</legend>
                     <input type="radio" id="easy" name="difficulty" value="easy"> <label for="easy">Easy</label>
                     <input type="radio" id="med" name="difficulty" value="med"> <label for="med">Intermediate</label>
@@ -45,7 +46,7 @@
         </div>
 
         <div class="row">
-            <div class="col" id="process" style="width:25%">
+            <div class="col" id="process" >
                 <h3>Ingredients</h3>
                 <ul>
                     <li><span>Chicken fillet</span></li>
@@ -57,7 +58,7 @@
                     <li>Salt to taste</li>
                 </ul>
             </div>
-            <div class="col" id="process" style="width:15%">
+            <div class="col" id="process" >
                 <h3>Equipment</h3>
                 <ul>
                     <li>Meat mallet</li>
@@ -65,7 +66,7 @@
                     <li>Two deep plates (for egg wash and breadcrumbs)</li>
                 </ul>
             </div>
-            <div class="col" id="process"style="width:40%">
+            <div class="col" id="process">
                 <h3>Directions</h3>
                 <ol>
                     <li>Pound the chicken fillet until thin. Season with salt, place a piece of cold butter in the center, and fold it tightly like an envelope.</li>
@@ -77,8 +78,12 @@
         </div>
     </div>
     <footer>
-        <p>Created by Matvii | DEV109 Coding Assignment 5</p>
-        <p>This page created as academic activity only.</p>
+        <p class="footerLeft">Created by Matvii | DEV109 Coding Assignment 5</p>
+        <p>This page created as academic activity only. <br> <a href="https://www.bellevuecollege.edu/" target="_blank" class="footerLeft">
+            Back to the Main Page
+        </a></p> 
+        
     </footer>
+    
 </body>
 </html>

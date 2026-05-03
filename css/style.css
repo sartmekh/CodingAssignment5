@@ -15,24 +15,21 @@
 body {
     background-image: url('../images/background.jpg');
     font-family: "Jost", sans-serif;
-    color: #130805;
+    color: #24100a;
     font-size: large;
     text-shadow: #0a05034d 1px 1px 0px;
 }
 h1, h2 {
     font-family: "Playwrite NO", serif;
 }
-.grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
-    /* border: double cornflowerblue; */
-    background-color: #fae08a42;
-    gap: 10px;
-    padding: 10px;
-    margin: 2em;
+
+h1, h2, h3 {
+    margin-top: 1%;
 }
 
+h3{
+    font-size: 135%;
+}
 
 h1:hover, h2:hover, h3:hover{
     color: #7c3c2a;
@@ -41,28 +38,11 @@ h1:hover, h2:hover, h3:hover{
 
 a {
     
-    color: #7c3c2a;
+    color: #e24b1c;
 }
 a:hover {
-    color: #fc8d6e;
+    color: #7fffd4;
     text-shadow: #6d311f 1px 1px 0px;
-}
-
-.difficulty {
-    width: 300px;
-    background-color: #ffbc647c;
-}
-div {
-    margin: 10px;
-    /* border: #0a0503 2px solid; */
-}
-
-.RecipiesLinks li{
-    margin: 5px;
-    background-color: #cec5ca;
-    border: #3f3937 2px solid;
-    padding: 5px;
-    font-size: medium;
 }
 
 span {
@@ -71,9 +51,66 @@ span {
     color: #25110b;
 }
 
+div {
+    margin: 1%;
+    border: #0a0503 2px solid;
+}
+
+header {
+    margin-left: 1%;
+}
+figcaption{
+    background-color: #ff90647c;
+    padding: 1% 0;
+    text-align: center;
+}
+
+.rate {
+    background-color: #ffe864d5;
+}
+
+.menu li{
+    margin-top: 5px;
+    background-color: #cec5ca;
+    border: #3f3937 2px solid;
+    padding: 5px;
+    font-size: 110%;
+    list-style: none;
+}
+
+.menu li:hover {
+    color: #fff;
+    text-shadow: #25110b 1px 1px 2px;
+}
+
+.menu ul{
+    padding: 0;
+    margin: 0;
+}
+
 #process {
     background-color: #ffbc647c;
-    padding: 10px;
     border: #0a0503 2px solid;
+    width: 31.333%;
+}
 
+.col {
+    padding: 1%;
+    width: auto;
+    
+}
+
+.recipe-box{
+    margin: 1%;
+}
+
+footer {
+  margin: 0 1%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer a {
+    margin-left: 48%;
 }
