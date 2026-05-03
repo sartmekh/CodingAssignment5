@@ -19,6 +19,12 @@ body {
     font-size: large;
     text-shadow: #0a05034d 1px 1px 0px;
 }
+
+div {
+    margin: 1%;
+    /* border: #0a0503 2px solid; */
+}
+
 h1, h2 {
     font-family: "Playwrite NO", serif;
 }
@@ -51,13 +57,9 @@ span {
     color: #25110b;
 }
 
-div {
-    margin: 1%;
-    border: #0a0503 2px solid;
-}
-
 header {
     margin-left: 1%;
+    border-bottom: #24100a 2px solid;
 }
 figcaption{
     background-color: #ff90647c;
@@ -65,12 +67,23 @@ figcaption{
     text-align: center;
 }
 
+footer {
+  margin: 0 1%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: #24100a 2px solid;
+}
+
+footer a {
+    margin-left: 48%;
+}
+
 .rate {
     background-color: #ffe864d5;
 }
 
 .menu li{
-    margin-top: 5px;
     background-color: #cec5ca;
     border: #3f3937 2px solid;
     padding: 5px;
@@ -90,7 +103,7 @@ figcaption{
 
 #process {
     background-color: #ffbc647c;
-    border: #0a0503 2px solid;
+    border: #68544e 4px solid;
     width: 31.333%;
 }
 
@@ -104,13 +117,3 @@ figcaption{
     margin: 1%;
 }
 
-footer {
-  margin: 0 1%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-footer a {
-    margin-left: 48%;
-}
